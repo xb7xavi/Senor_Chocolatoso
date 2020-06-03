@@ -1,0 +1,131 @@
+html {
+	font-family:  "playfair-display", sans-serif;
+	font-size: 22px;
+	color: white;
+}
+
+body {
+	background: url("https://rutren.com/wp-content/uploads/2018/02/MALPE-017.jpg") no-repeat center center fixed;
+  	background-size: cover;
+  	margin: 0;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+header {
+	position: fixed;
+	display: flex;
+	background-color: white;
+	margin-top: 0px;
+	width: 100%;
+	height: 70px;
+	align-items: center;
+}
+
+nav {
+	color: #45322e;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav a {
+	margin: 5px;
+	color: #45322e;
+}
+
+.titulo {
+	width: 50%;
+}
+
+.tituloi {
+	color: #45322e;
+	margin-left: 20px;
+	font-family: 'Work Sans';
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	position: sticky;
+}
+
+#logoi {
+	height: 200px;
+	width: 200px;
+	border-radius: 1000px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.info, .fotos {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.infoi, .fotosi {
+	background-color: rgba( 112, 123, 124, 0.7);
+	width: 70%;
+	padding: 20px;
+	border-radius: 3px;
+}
+
+#quienessomos {
+	font-size: 50px;
+	margin-top: 0;
+}
+
+#quienessomosparrafo {
+	text-align: justify;
+}
+
+#lacras {
+	color: red;
+}
+
+.brownies {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.brownies img {
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	border-radius: 3px;
+}
+
+footer {
+	width: 100%;
+	background-color: white;
+	margin-bottom: 0;
+	align-items: center;
+	display: flex;
+	font-family: 'Work Sans';
+	font-weight: bold;
+	font-size: 50px;
+	color: #45322e;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer div img {
+	width: 50px;
+	height: 50px;
+}
+
+footer p, footer div {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
