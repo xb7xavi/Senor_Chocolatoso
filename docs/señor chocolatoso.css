@@ -1,6 +1,6 @@
 @media only screen and (max-width: 480px){
-	nav a{
-		visibility: hidden;
+	nav {
+		width: 0;
 	}
 
 	.logo {
