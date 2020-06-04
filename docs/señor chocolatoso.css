@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) and (orientation: portrait){
+@media only screen and (min-width: 480px) and (orientation: portrait){
 	nav a{
 		visibility: hidden;
 	}
