@@ -1,3 +1,19 @@
+@media only screen and (max-width: 480px) and (orientation: portrait){
+	nav a{
+		visibility: hidden;
+	}
+
+	.logo {
+		width: 100%
+		justify-content: center;
+	}
+}
+
+
+
+
+
+
 html {
 	font-family: 'Playfair Display', serif;
 	font-size: 22px;
