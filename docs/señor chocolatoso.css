@@ -1,12 +1,12 @@
 @media only screen and (max-width: 480px){
-	nav {
+	nav a{
 		visibility: hidden;
 	}
 
 	.titulo {
 		width: 100%;
 		z-index: 10;
-		
+		justify-content: center;
 	}
 
 	header{
