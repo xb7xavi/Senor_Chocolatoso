@@ -29,7 +29,6 @@ nav {
 	width: 50%;
 	display: flex;
 	justify-content: flex-end;
-
 	height: 70px;
 	align-items: center;
 }
@@ -38,7 +37,6 @@ nav a {
 	margin-left: 5px;
 	margin-right: 5px;
 	color: #45322e;
-
 	height: 36px;
 }
 
@@ -121,7 +119,8 @@ nav a {
 	height: 250px;
 	width: 250px;
 	margin: 20px;
-	border-radius: 3px;
+	border-radius: 40px;
+	border: 1px solid black;
 }
 
 footer {
