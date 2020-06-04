@@ -1,17 +1,20 @@
 @media only screen and (min-width: 480px){
 	nav {
 		visibility: hidden;
+		width: 1%;
 	}
 
 	.titulo {
-		width: 100%;
+		width: 99%;
 		z-index: 10;
 		text-align: center;
+		justify-content: center;
 		background-color: red;
 	}
 
 	header{
 		justify-content: center;
+		text-align: center;
 	}
 }
 
