@@ -25,3 +25,24 @@ brownies.forEach(function(brownie){
 
 
 
+
+const idlinks = ['a', 'b', 'c'];
+const links = [];
+
+idlinks.forEach(function(ids){
+	links.push(document.getElementById(ids));
+})
+
+function lhigher(event){
+	event.target.style.color = '#965b4e';
+}
+
+function llower(event){
+	event.target.style.color = '#45322e';
+}
+
+links.forEach(function(linkid){
+  linkid.onmouseover = lhigher;
+  linkid.onmouseout = llower;
+})
+

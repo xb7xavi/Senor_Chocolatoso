@@ -1,5 +1,5 @@
 html {
-	font-family:  "playfair-display", sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 22px;
 	color: white;
 }
@@ -17,7 +17,7 @@ h1 {
 header {
 	position: fixed;
 	display: flex;
-	background-color: white;
+	background-image: url("./fondob.png");
 	margin-top: 0px;
 	width: 100%;
 	height: 70px;
@@ -29,29 +29,42 @@ nav {
 	width: 50%;
 	display: flex;
 	justify-content: flex-end;
+
+	height: 70px;
+	align-items: center;
 }
 
 nav a {
-	margin: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 	color: #45322e;
+
+	height: 36px;
+}
+
+#a, #b, #c {
+	font-size: 25px;
 }
 
 .titulo {
 	width: 50%;
+	height: 70px;
+	display: flex;
+	align-items: center;
 }
 
 .tituloi {
 	color: #45322e;
 	margin-left: 20px;
-	font-family: 'Work Sans';
+	font-family: 'Luckiest Guy', cursive;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 35px;
+	height: 25px;
 }
 
 .logo{
 	display: flex;
 	justify-content: center;
-	position: sticky;
 }
 
 #logoi {
@@ -86,7 +99,15 @@ nav a {
 }
 
 #lacras {
-	color: red;
+	color: #0000FF;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 0 0 20px #00FF00;
+}
+
+#foto {
+	font-size: 50px;
+	margin-top: 0;
 }
 
 .brownies {
@@ -105,13 +126,13 @@ nav a {
 
 footer {
 	width: 100%;
-	background-color: white;
+	background-image: url("./fondob.png");
 	margin-bottom: 0;
 	align-items: center;
 	display: flex;
 	font-family: 'Work Sans';
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 30px;
 	color: #45322e;
 	justify-content: center;
 	flex-direction: column;
