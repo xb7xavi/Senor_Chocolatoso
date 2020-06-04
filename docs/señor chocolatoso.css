@@ -5,11 +5,11 @@
 
 	.titulo {
 		width: 100%;
-		justify-content: center;
+		
 	}
 
 	header{
-		
+		justify-content: center;
 	}
 }
 
