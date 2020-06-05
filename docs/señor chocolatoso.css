@@ -1,29 +1,13 @@
 @media only screen and (min-width: 480px){
 	nav {
-		width: 40%;
 		background-color: green;
-	}
-
-	nav a {
-		background-color: yellow;
-	}
-
-	.titulo {
-		width: 60%;
-		z-index: 10;
-		text-align: center;
-		justify-content: center;
-		background-color: red;
+		text-indent: 999px;
 	}
 
 	.tituloi {
-		background-color: blue;
+		position: relative;
 	}
 
-	header{
-		justify-content: center;
-		text-align: center;
-	}
 }
 
 
