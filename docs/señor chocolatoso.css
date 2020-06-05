@@ -1,7 +1,7 @@
 @media only screen and (min-width: 480px){
 	nav {
-		visibility: hidden;
 		width: 1%;
+		background-color: green;
 	}
 
 	.titulo {
